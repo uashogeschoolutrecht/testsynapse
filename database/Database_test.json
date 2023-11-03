@@ -1,0 +1,25 @@
+{
+	"name": "Database_test",
+	"properties": {
+		"Name": "Database_test",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://test@storagedenasandbox.dfs.core.windows.net/",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "ADLS_storagedenasandbox"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "1dafb8d4-303c-438f-b707-77f808689df9"
+	},
+	"type": "DATABASE"
+}

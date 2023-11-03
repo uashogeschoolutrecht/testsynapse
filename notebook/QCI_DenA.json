@@ -1,0 +1,193 @@
+{
+	"name": "QCI_DenA",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "DenaSbxPool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "8bf172d8-1879-4704-a095-a252f43aae1a"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1"
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/dd96555a-247b-43aa-b02b-b1a7f15e5916/resourceGroups/RG-DataAnalytics-Sandbox/providers/Microsoft.Synapse/workspaces/wrkspc-dataanalytics-synapse-sbx/bigDataPools/DenaSbxPool",
+				"name": "DenaSbxPool",
+				"type": "Spark",
+				"endpoint": "https://wrkspc-dataanalytics-synapse-sbx.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/DenaSbxPool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"---\r\n",
+					"# QCI\r\n",
+					"##### author: Jan Thesing en Team D&A\r\n",
+					"---"
+				]
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": true
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"###Install packages\r\n",
+					"#Not all packages are installed by default\r\n",
+					"pip install pingouin"
+				],
+				"execution_count": 8
+			},
+			{
+				"cell_type": "code",
+				"source": [
+					"###Load packages\r\n",
+					"import pandas       as pd   #required for data wrangling\r\n",
+					"import pingouin     as pg   #required for Cronbach's Alpha"
+				],
+				"execution_count": 9
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"### Load data\r\n",
+					"# Use sample data because of unavailability of QCI data\r\n",
+					"qcidata = df = pd.DataFrame({   'Vraag3': [3, 2, 2, 3, 2, 2, 3, 3, 2, 1],\r\n",
+					"                                'Vraag4': [1, 1, 1, 2, 3, 3, 2, 3, 3, 3],\r\n",
+					"                                'Vraag5': [1, 1, 2, 1, 2, 3, 3, 3, 2, 3]})"
+				],
+				"execution_count": 18
+			},
+			{
+				"cell_type": "markdown",
+				"metadata": {
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"## Interne consistentie\r\n",
+					"Om interne consistentie per subschaal te meten is [Cronbach's Alpha](https://www.scribbr.nl/statistiek/cronbachs-alpha/) gebruikt, deze is geïnterpreteerd met gebruik van de volgende [bron](https://towardsdatascience.com/cronbachs-alpha-theory-and-application-in-python-d2915dd63586)."
+				]
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"alpha = pg.cronbach_alpha(data=qcidata[['Vraag3', 'Vraag4', 'Vraag5']])\r\n",
+					"alpha"
+				],
+				"execution_count": 22
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"pg.cronbach_alpha(data = qcidata[['Vraag4', 'Vraag5']])"
+				],
+				"execution_count": 20
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				]
+			}
+		]
+	}
+}

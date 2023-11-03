@@ -1,0 +1,17 @@
+{
+	"name": "Fruit",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [id]\n,[naam]\n,[omschrijving]\n FROM [Database1].[dbo].[test_bron]\n where omschrijving = 'fruit'",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Database1",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

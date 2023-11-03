@@ -1,0 +1,1027 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "DenaSbxPool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "6c2607ee-a267-4d1a-a014-30ca803328bc"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"dc9c2f43-9960-4054-8c6e-96f204e5ed8f": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "Vanuit mijn rol binnen een opleiding.",
+										"1": "Duits",
+										"2": "Instituut Archimedes",
+										"3": "1",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "2",
+										"10": "2",
+										"11": "2",
+										"12": "2",
+										"13": "2",
+										"14": "2",
+										"15": "2",
+										"16": "2",
+										"17": "2",
+										"18": "2",
+										"19": "2",
+										"20": "2",
+										"21": "2",
+										"22": "2",
+										"23": "2",
+										"24": "2",
+										"25": "2",
+										"26": "2",
+										"27": "2",
+										"28": "2",
+										"29": "2",
+										"30": "2",
+										"31": "2",
+										"32": "2",
+										"33": "3",
+										"34": "3",
+										"35": "2",
+										"36": "2",
+										"37": "2",
+										"38": "2",
+										"39": "2",
+										"40": "2",
+										"41": "2",
+										"42": "2",
+										"43": "2",
+										"44": "2",
+										"45": "2",
+										"46": "4",
+										"47": "3",
+										"48": "3",
+										"49": "3",
+										"50": "2",
+										"51": "2",
+										"52": "2",
+										"53": "2",
+										"54": "2",
+										"55": "3",
+										"56": "3",
+										"57": "4",
+										"58": "4"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een ondersteunende dienst.",
+										"1": "Plannen & Roosteren Padua",
+										"2": "Dienst Onderwijs, Onderzoek & Studentzaken",
+										"3": "2",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "3",
+										"9": "2",
+										"10": "2",
+										"11": "2",
+										"12": "1",
+										"13": "3",
+										"14": "2",
+										"15": "2",
+										"16": "1",
+										"17": "2",
+										"18": "2",
+										"19": "2",
+										"20": "2",
+										"21": "1",
+										"22": "2",
+										"23": "1",
+										"24": "2",
+										"25": "3",
+										"26": "2",
+										"27": "2",
+										"28": "2",
+										"29": "1",
+										"30": "3",
+										"31": "2",
+										"32": "3",
+										"33": "2",
+										"34": "2",
+										"35": "3",
+										"36": "1",
+										"37": "2",
+										"38": "2",
+										"39": "2",
+										"40": "2",
+										"41": "2",
+										"42": "3",
+										"43": "2",
+										"44": "2",
+										"45": "1",
+										"46": "2",
+										"47": "2",
+										"48": "3",
+										"49": "3",
+										"50": "2",
+										"51": "3",
+										"52": "2",
+										"53": "1",
+										"54": "2",
+										"55": "2",
+										"56": "1",
+										"57": "2",
+										"58": "3"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een ondersteunende dienst.",
+										"1": "IM&ICT BB Housing & Hosting",
+										"2": "Dienst Informatiemanagement & ICT",
+										"3": "2",
+										"4": "2",
+										"5": "4",
+										"6": "4",
+										"7": "3",
+										"8": "1",
+										"9": "2",
+										"10": "4",
+										"11": "1",
+										"12": "1",
+										"13": "2",
+										"14": "2",
+										"15": "2",
+										"16": "4",
+										"17": "6",
+										"18": "5",
+										"19": "7",
+										"20": "4",
+										"21": "4",
+										"22": "5",
+										"23": "4",
+										"24": "5",
+										"25": "4",
+										"26": "2",
+										"27": "1",
+										"28": "4",
+										"29": "1",
+										"30": "7",
+										"31": "5",
+										"32": "4",
+										"33": "5",
+										"34": "5",
+										"35": "5",
+										"36": "1",
+										"37": "2",
+										"38": "2",
+										"39": "2",
+										"40": "3",
+										"41": "4",
+										"42": "5",
+										"43": "5",
+										"44": "5",
+										"45": "4",
+										"46": "5",
+										"47": "5",
+										"48": "5",
+										"49": "5",
+										"50": "5",
+										"51": "5",
+										"52": "5",
+										"53": "5",
+										"54": "5",
+										"55": "5",
+										"56": "5",
+										"57": "5",
+										"58": "5"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een opleiding.",
+										"1": "Bachelor Pedagogiek vt3",
+										"2": "Instituut voor Ecologische Pedagogiek",
+										"3": "1",
+										"4": "2",
+										"5": "3",
+										"6": "3",
+										"7": "3",
+										"8": "1",
+										"9": "2",
+										"10": "1",
+										"11": "1",
+										"12": "1",
+										"13": "2",
+										"14": "1",
+										"15": "2",
+										"16": "2",
+										"17": "3",
+										"18": "3",
+										"19": "4",
+										"20": "3",
+										"21": "4",
+										"22": "2",
+										"23": "2",
+										"24": "1",
+										"25": "1",
+										"26": "2",
+										"27": "1",
+										"28": "2",
+										"29": "1",
+										"30": "1",
+										"31": "3",
+										"32": "4",
+										"33": "5",
+										"34": "4",
+										"35": "2",
+										"36": "3",
+										"37": "3",
+										"38": "3",
+										"39": "2",
+										"40": "1",
+										"41": "3",
+										"42": "2",
+										"43": "2",
+										"44": "2",
+										"45": "5",
+										"46": "5",
+										"47": "2",
+										"48": "4",
+										"49": "3",
+										"50": "2",
+										"51": "2",
+										"52": "2",
+										"53": "4",
+										"54": "3",
+										"55": "4",
+										"56": "4",
+										"57": "4",
+										"58": "3"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een ondersteunende dienst.",
+										"1": "Certificering 1",
+										"2": "Dienst Onderwijs, Onderzoek & Studentzaken",
+										"3": "2",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "2",
+										"10": "2",
+										"11": "1",
+										"12": "2",
+										"13": "1",
+										"14": "6",
+										"15": "2",
+										"16": "1",
+										"17": "2",
+										"18": "2",
+										"19": "6",
+										"20": "1",
+										"21": "1",
+										"22": "2",
+										"23": "1",
+										"24": "2",
+										"25": "2",
+										"26": "1",
+										"27": "2",
+										"28": "4",
+										"29": "2",
+										"30": "1",
+										"31": "2",
+										"32": "6",
+										"33": "1",
+										"34": "2",
+										"35": "1",
+										"36": "2",
+										"37": "8",
+										"38": "2",
+										"39": "6",
+										"40": "1",
+										"41": "2",
+										"42": "6",
+										"43": "6",
+										"44": "6",
+										"45": "7",
+										"46": "2",
+										"47": "6",
+										"48": "6",
+										"49": "6",
+										"50": "6",
+										"51": "6",
+										"52": "2",
+										"53": "2",
+										"54": "1",
+										"55": "1",
+										"56": "6",
+										"57": "6",
+										"58": "6"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een opleiding.",
+										"1": "Team verpleegkunde jaar 1",
+										"2": "Instituut voor Verpleegkundige Studies",
+										"3": "1",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "2",
+										"10": "2",
+										"11": "1",
+										"12": "2",
+										"13": "2",
+										"14": "2",
+										"15": "1",
+										"16": "2",
+										"17": "2",
+										"18": "2",
+										"19": "2",
+										"20": "2",
+										"21": "2",
+										"22": "2",
+										"23": "2",
+										"24": "2",
+										"25": "2",
+										"26": "3",
+										"27": "4",
+										"28": "2",
+										"29": "2",
+										"30": "2",
+										"31": "2",
+										"32": "4",
+										"33": "3",
+										"34": "2",
+										"35": "2",
+										"36": "2",
+										"37": "1",
+										"38": "2",
+										"39": "1",
+										"40": "1",
+										"41": "2",
+										"42": "3",
+										"43": "2",
+										"44": "2",
+										"45": "2",
+										"46": "2",
+										"47": "2",
+										"48": "3",
+										"49": "3",
+										"50": "2",
+										"51": "2",
+										"52": "2",
+										"53": "2",
+										"54": "2",
+										"55": "2",
+										"56": "2",
+										"57": "2",
+										"58": "2"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een opleiding.",
+										"1": "Communicatie & Media Design team 4",
+										"2": "Instituut voor Communicatie",
+										"3": "1",
+										"4": "2",
+										"5": "3",
+										"6": "4",
+										"7": "3",
+										"8": "2",
+										"9": "3",
+										"10": "4",
+										"11": "4",
+										"12": "2",
+										"13": "2",
+										"14": "2",
+										"15": "3",
+										"16": "4",
+										"17": "3",
+										"18": "3",
+										"19": "2",
+										"20": "2",
+										"21": "4",
+										"22": "2",
+										"23": "2",
+										"24": "2",
+										"25": "4",
+										"26": "3",
+										"27": "3",
+										"28": "4",
+										"29": "2",
+										"30": "3",
+										"31": "2",
+										"32": "4",
+										"33": "5",
+										"34": "4",
+										"35": "3",
+										"36": "2",
+										"37": "3",
+										"38": "3",
+										"39": "2",
+										"40": "2",
+										"41": "2",
+										"42": "2",
+										"43": "4",
+										"44": "4",
+										"45": "3",
+										"46": "4",
+										"47": "3",
+										"48": "2",
+										"49": "3",
+										"50": "4",
+										"51": "4",
+										"52": "2",
+										"53": "3",
+										"54": "2",
+										"55": "2",
+										"56": "3",
+										"57": "2",
+										"58": "3"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een lectoraat / kenniscentrum.",
+										"1": "Lectoraat Onderzoekend Vermogen",
+										"2": "Kenniscentrum Leren en Innoveren",
+										"3": "3",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "2",
+										"10": "2",
+										"11": "2",
+										"12": "1",
+										"13": "3",
+										"14": "1",
+										"15": "1",
+										"16": "1",
+										"17": "2",
+										"18": "2",
+										"19": "6",
+										"20": "2",
+										"21": "2",
+										"22": "1",
+										"23": "1",
+										"24": "4",
+										"25": "2",
+										"26": "1",
+										"27": "2",
+										"28": "1",
+										"29": "2",
+										"30": "2",
+										"31": "1",
+										"32": "3",
+										"33": "2",
+										"34": "2",
+										"35": "2",
+										"36": "1",
+										"37": "1",
+										"38": "1",
+										"39": "1",
+										"40": "1",
+										"41": "2",
+										"42": "2",
+										"43": "2",
+										"44": "2",
+										"45": "2",
+										"46": "2",
+										"47": "2",
+										"48": "4",
+										"49": "2",
+										"50": "1",
+										"51": "4",
+										"52": "1",
+										"53": "1",
+										"54": "4",
+										"55": "4",
+										"56": "4",
+										"57": "4",
+										"58": "4"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een opleiding.",
+										"1": "Creative Business 4",
+										"2": "Instituut voor Communicatie",
+										"3": "1",
+										"4": "2",
+										"5": "3",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "2",
+										"10": "2",
+										"11": "1",
+										"12": "1",
+										"13": "1",
+										"14": "1",
+										"15": "1",
+										"16": "2",
+										"17": "2",
+										"18": "2",
+										"19": "2",
+										"20": "2",
+										"21": "2",
+										"22": "2",
+										"23": "2",
+										"24": "2",
+										"25": "2",
+										"26": "1",
+										"27": "1",
+										"28": "1",
+										"29": "1",
+										"30": "2",
+										"31": "2",
+										"32": "2",
+										"33": "2",
+										"34": "2",
+										"35": "2",
+										"36": "2",
+										"37": "2",
+										"38": "2",
+										"39": "2",
+										"40": "1",
+										"41": "2",
+										"42": "2",
+										"43": "2",
+										"44": "2",
+										"45": "2",
+										"46": "2",
+										"47": "2",
+										"48": "2",
+										"49": "2",
+										"50": "2",
+										"51": "2",
+										"52": "2",
+										"53": "2",
+										"54": "3",
+										"55": "2",
+										"56": "2",
+										"57": "3",
+										"58": "3"
+									},
+									{
+										"0": "Vanuit mijn rol binnen een ondersteunende dienst.",
+										"1": "Studentsupport team 1",
+										"2": "Dienst Onderwijs, Onderzoek & Studentzaken",
+										"3": "2",
+										"4": "2",
+										"5": "2",
+										"6": "2",
+										"7": "2",
+										"8": "2",
+										"9": "1",
+										"10": "1",
+										"11": "1",
+										"12": "1",
+										"13": "1",
+										"14": "1",
+										"15": "1",
+										"16": "1",
+										"17": "1",
+										"18": "1",
+										"19": "3",
+										"20": "1",
+										"21": "1",
+										"22": "2",
+										"23": "1",
+										"24": "3",
+										"25": "3",
+										"26": "2",
+										"27": "1",
+										"28": "1",
+										"29": "2",
+										"30": "2",
+										"31": "2",
+										"32": "2",
+										"33": "4",
+										"34": "4",
+										"35": "4",
+										"36": "1",
+										"37": "2",
+										"38": "2",
+										"39": "2",
+										"40": "1",
+										"41": "2",
+										"42": "2",
+										"43": "2",
+										"44": "2",
+										"45": "3",
+										"46": "3",
+										"47": "2",
+										"48": "2",
+										"49": "3",
+										"50": "1",
+										"51": "2",
+										"52": "3",
+										"53": "2",
+										"54": "2",
+										"55": "2",
+										"56": "2",
+										"57": "2",
+										"58": "2"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "v1",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "v2",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "v3",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "Vraag1",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "Vraag2",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "Vraag3",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "Vraag4",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "Vraag5",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "Vraag6",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "Vraag7",
+										"type": "string"
+									},
+									{
+										"key": "10",
+										"name": "Vraag8",
+										"type": "string"
+									},
+									{
+										"key": "11",
+										"name": "Vraag9",
+										"type": "string"
+									},
+									{
+										"key": "12",
+										"name": "Vraag10",
+										"type": "string"
+									},
+									{
+										"key": "13",
+										"name": "Vraag11",
+										"type": "string"
+									},
+									{
+										"key": "14",
+										"name": "Vraag12",
+										"type": "string"
+									},
+									{
+										"key": "15",
+										"name": "Vraag13",
+										"type": "string"
+									},
+									{
+										"key": "16",
+										"name": "Vraag14",
+										"type": "string"
+									},
+									{
+										"key": "17",
+										"name": "Vraag15",
+										"type": "string"
+									},
+									{
+										"key": "18",
+										"name": "Vraag16",
+										"type": "string"
+									},
+									{
+										"key": "19",
+										"name": "Vraag17",
+										"type": "string"
+									},
+									{
+										"key": "20",
+										"name": "Vraag18",
+										"type": "string"
+									},
+									{
+										"key": "21",
+										"name": "Vraag19",
+										"type": "string"
+									},
+									{
+										"key": "22",
+										"name": "Vraag20",
+										"type": "string"
+									},
+									{
+										"key": "23",
+										"name": "Vraag21",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "Vraag22",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "Vraag23",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "Vraag24",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "Vraag25",
+										"type": "string"
+									},
+									{
+										"key": "28",
+										"name": "Vraag26",
+										"type": "string"
+									},
+									{
+										"key": "29",
+										"name": "Vraag27",
+										"type": "string"
+									},
+									{
+										"key": "30",
+										"name": "Vraag28",
+										"type": "string"
+									},
+									{
+										"key": "31",
+										"name": "Vraag29",
+										"type": "string"
+									},
+									{
+										"key": "32",
+										"name": "Vraag30",
+										"type": "string"
+									},
+									{
+										"key": "33",
+										"name": "Vraag31",
+										"type": "string"
+									},
+									{
+										"key": "34",
+										"name": "Vraag32",
+										"type": "string"
+									},
+									{
+										"key": "35",
+										"name": "Vraag33",
+										"type": "string"
+									},
+									{
+										"key": "36",
+										"name": "Vraag34",
+										"type": "string"
+									},
+									{
+										"key": "37",
+										"name": "Vraag35",
+										"type": "string"
+									},
+									{
+										"key": "38",
+										"name": "Vraag36",
+										"type": "string"
+									},
+									{
+										"key": "39",
+										"name": "Vraag37",
+										"type": "string"
+									},
+									{
+										"key": "40",
+										"name": "Vraag38",
+										"type": "string"
+									},
+									{
+										"key": "41",
+										"name": "Vraag39",
+										"type": "string"
+									},
+									{
+										"key": "42",
+										"name": "Vraag40",
+										"type": "string"
+									},
+									{
+										"key": "43",
+										"name": "Vraag41",
+										"type": "string"
+									},
+									{
+										"key": "44",
+										"name": "Vraag42",
+										"type": "string"
+									},
+									{
+										"key": "45",
+										"name": "Vraag43",
+										"type": "string"
+									},
+									{
+										"key": "46",
+										"name": "Vraag44",
+										"type": "string"
+									},
+									{
+										"key": "47",
+										"name": "Vraag45",
+										"type": "string"
+									},
+									{
+										"key": "48",
+										"name": "Vraag46",
+										"type": "string"
+									},
+									{
+										"key": "49",
+										"name": "Vraag47",
+										"type": "string"
+									},
+									{
+										"key": "50",
+										"name": "Vraag48",
+										"type": "string"
+									},
+									{
+										"key": "51",
+										"name": "Vraag49",
+										"type": "string"
+									},
+									{
+										"key": "52",
+										"name": "Vraag50",
+										"type": "string"
+									},
+									{
+										"key": "53",
+										"name": "Vraag51",
+										"type": "string"
+									},
+									{
+										"key": "54",
+										"name": "Vraag52",
+										"type": "string"
+									},
+									{
+										"key": "55",
+										"name": "Vraag53",
+										"type": "string"
+									},
+									{
+										"key": "56",
+										"name": "Vraag54",
+										"type": "string"
+									},
+									{
+										"key": "57",
+										"name": "Vraag55",
+										"type": "string"
+									},
+									{
+										"key": "58",
+										"name": "Vraag56",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/dd96555a-247b-43aa-b02b-b1a7f15e5916/resourceGroups/RG-DataAnalytics-Sandbox/providers/Microsoft.Synapse/workspaces/wrkspc-dataanalytics-synapse-sbx/bigDataPools/DenaSbxPool",
+				"name": "DenaSbxPool",
+				"type": "Spark",
+				"endpoint": "https://wrkspc-dataanalytics-synapse-sbx.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/DenaSbxPool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://analytics@storagedenasandbox.dfs.core.windows.net/QCIdata_volledig.csv', format='csv', header=True, delimiter = ';')\r\n",
+					"display(df.limit(10))"
+				],
+				"execution_count": 3
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				]
+			}
+		]
+	}
+}
