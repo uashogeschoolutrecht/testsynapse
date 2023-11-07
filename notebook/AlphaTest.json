@@ -1,0 +1,60 @@
+{
+	"name": "AlphaTest",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "DenaSbxPool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "7060b5ae-83ba-4be7-b63a-6d38d9cc40b5"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "python"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/dd96555a-247b-43aa-b02b-b1a7f15e5916/resourceGroups/RG-DataAnalytics-Sandbox/providers/Microsoft.Synapse/workspaces/wrkspc-dataanalytics-synapse-sbx/bigDataPools/DenaSbxPool",
+				"name": "DenaSbxPool",
+				"type": "Spark",
+				"endpoint": "https://wrkspc-dataanalytics-synapse-sbx.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/DenaSbxPool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"automaticScaleJobs": false
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"import pandas as pd"
+				],
+				"execution_count": null
+			}
+		]
+	}
+}
